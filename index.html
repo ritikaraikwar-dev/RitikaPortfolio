@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="./assest/css/style.css">
+
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+     <script src="https://kit.fontawesome.com/d914c2c4bc.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+
+    
+<!-- nav section start -->
+ 
+<div id="banner">
+    <nav class="navbar navbar-expand-lg position-fixed z-3 top-0 start-0 end-0 z-3">
+        <div class="container-lg">
+
+            <a class="navbar-brand" href="#"><img src="./assest/img/Ritika-designstyle-boots-m.png" alt="1"    
+                    data-aos="fade-right" data-aos-duration="2000"  class="end-0"></a>
+
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                <span class="navbar-toggler-icon"></span>
+
+
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0   ">
+
+                    <li class="nav-item">
+                        <a class="nav-link"  href="/index.html">HOME</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link"  href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#serives">SERVICES</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">PORTFOLIO</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">CONTACT</a>
+                    </li>
+
+                   
+
+                     
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+</div>
+ 
+
+     <!-- offcanvas section start -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title bg-pink" id="offcanvasRightLabel" > </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+             <ul class="navbar-nav fs-4">
+
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#serives">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#portfolio">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="#contact">Contact</a>
+                </li>
+                 
+                
+            </ul>
+        </div>
+    </div>
+
+<!-- offcanvas section start -->
+     
+<!-- nav section end -->
+
+  
+     
+      
+
+
+    <!-- main section start -->
+
+<div class="main"> 
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="header-text">
+
+                    <p>User Interface Designer</p>
+                    <h1>Hi,I'm <span>Ritika Raikwar</span> <br> From India</h1>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div id="image1">
+                    <img src="./assest/img/img-1.jpg" alt="">
+                </div>
+        
+            </div>
+        </div>
+    </div>
+</div>
+     
+    <!-- main section end -->
+
+
+
+     <!--------About--------->
+
+     <div id="about">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6 about-col-1">
+                    <img src="./assest/img/img-3.jpg" alt=""  >
+                </div>
+
+                <div class="col-lg-6 about-col-2">
+
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p><i>I'm Ritika Raikwar, a passionate Frontend Developer skilled in HTML, CSS, JavaScript, and React.I specialize in creating responsive and user-friendly websites with a focus on clean design. My goal is to deliver impactful web solutions that enhance user experience and solve real-world problems.</i></p>
+
+                    <div class="tab-titles">
+                        <div class="tab-links active-link" onclick="opentab('skills')">skills</div>
+                        <div class="tab-links" onclick="opentab('experience')">Experience</div>
+                        <div class="tab-links" onclick="opentab('education')">Education</div>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI Designer</span><br>Designing Web/App interface</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>App Development</span><br>Designing Web/App interface</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024 - current</span><br>UI Design Training at CNC WEB WORLD Technology</li>
+                            <li><span>2022-2023</span><br>PD Training from Unnati foundation</li>
+                            <li><span>2021-22</span><br>C/C++ at Universal Technology</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020-2024</span><br>B.Tech (cs) from RGPV</li>
+                            <li><span>12th</span><br>CM Rise Hr Sec School Dewas MP</li>
+                            <li><span>10th</span><br>CM Rise Hr Sec School Dewas MP</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+ <!-- about section start -->
+
+
+  <!----------Services------------>
+
+  <div id="serives">
+
+    <div class="container-fluid">
+
+        <h1 class="sub-title">My Services</h1>
+
+        <div class="services-list">
+
+            <div><i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Creating responsive and visually appealing websites tailored to client needs.
+                    Ensuring cross-browser compatibility and optimal user experience.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div><i class="fa-solid fa-crop"></i>
+                <h2>UI Design</h2>
+                <p>Designing user-centric interfaces for seamless navigation and engagement.
+                    Crafting wireframes and prototypes for intuitive layouts.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div><i class="fa-brands fa-app-store-ios"></i>
+                <h2>App Design</h2>
+                <p>Building sleek and user-friendly mobile application designs.
+                    Enhancing user interaction with modern and minimalistic design elements.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- service section end -->
+
+
+<!------------portfolio--------->
+
+<div id="portfolio">
+
+    <div class="container">
+
+        <div class="sub-title">My work</div>
+
+        <div class="work-list">
+
+            <div class="work">
+                <img src="./assest/img/work3.png" alt="1" width="200px" height="350px">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Connect with friends and share moments through posts, stories, and chats.
+                        Offers features like real-time updates, media sharing, and groups.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="./assest/img/work1.jpg" alt="2" width="200px" height="350px">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>Stream, download, and organize your favorite songs effortlessly.
+                        Features personalized playlists, offline mode, and high-quality audio.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="work">
+                <img src="./assest/img/work2.jpeg" alt="2" width="200px" height="350px">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>Provides a seamless platform to browse and purchase products online.
+                        Offers features like easy navigation, secure payments, and order tracking.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!---------------Contact--------->
+
+<div id="contact">
+
+    <div class="container-fluid">
+
+        <div class="row">
+
+            <div class="contact-left">
+
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>raikwarritika45@gmail.com</p>
+                <p><i class="fa-solid fa-phone-volume"> </i>&nbsp; 91+ 7869674456</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/FD Ritika  .pdf" download class="btn2">Download CV</a>
+            </div>
+
+
+            <div class="contact-right">
+                <form action="">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./assest/js/script.js"></script>
+</body>
+</html>
